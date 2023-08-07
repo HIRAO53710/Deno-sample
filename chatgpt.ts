@@ -27,8 +27,8 @@ game.subscribeToConnection((connected) => {
 game.subscribeToEvent("playerChats", async (data) => {
   const contents = data.playerChats.contents;
   //console.log();
-  if (data.playerChats.senderId == "RCqqJ6EnuUQYb5oXezfE1aaqX423") return;
-  if (data.playerChats.recipient !== "RCqqJ6EnuUQYb5oXezfE1aaqX423") {
+  if (data.playerChats.senderId == "botアカウントのID") return;
+  if (data.playerChats.recipient !== "botアカウントのID") {
     return;
   }
 
